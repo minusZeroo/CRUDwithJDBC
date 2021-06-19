@@ -34,6 +34,10 @@ public class EstConnection {
         }
     }
 
+    /**
+     * naming convention stipulates methods starts with lowercase.
+     * @throws SQLException
+     */
     public void Insert() throws SQLException {
         String dbUrl = "jdbc:mysql://localhost:3306/demo";
         String user = "root";
